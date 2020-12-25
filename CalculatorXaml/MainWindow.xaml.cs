@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace CalculatorXaml
@@ -6,12 +7,13 @@ namespace CalculatorXaml
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// 
+    ///
 
     public partial class MainWindow : Window
     {
         private double lastNumber, result;
         private SelectedOperator selectedOperator;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -47,8 +49,6 @@ namespace CalculatorXaml
                     case SelectedOperator.Division:
                         result = SimpleMath.Divide(lastNumber, newNum);
                         break;
-                    default:
-                        break;
                 }
             }
 
@@ -57,10 +57,12 @@ namespace CalculatorXaml
 
         private void PercentageBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (double.TryParse(resultLbl.Content.ToString(), out lastNumber))
+            if (double.TryParse(resultLbl.Content.ToString(), out double tempNum))
             {
-                lastNumber = lastNumber / 100;
-                resultLbl.Content = lastNumber.ToString();
+                tempNum /= 100;
+                if (lastNumber != 0)
+                    tempNum *= lastNumber;
+                resultLbl.Content = tempNum.ToString();
             }
         }
 
@@ -68,31 +70,26 @@ namespace CalculatorXaml
         {
             if (double.TryParse(resultLbl.Content.ToString(), out lastNumber))
             {
-                lastNumber = lastNumber * -1;
+                lastNumber *= -1;
                 resultLbl.Content = lastNumber.ToString();
             }
         }
+
         private void ACBtn_Click(object sender, RoutedEventArgs e)
         {
             resultLbl.Content = "0";
+            result = 0;
+            lastNumber = 0;
         }
 
         private void OperationBtn_Click(object sender, RoutedEventArgs e)
         {
             if (double.TryParse(resultLbl.Content.ToString(), out lastNumber))
-            {
                 resultLbl.Content = "0";
-            }
 
-            if (sender == multiplicationBtn)
-                selectedOperator = SelectedOperator.Multiplication;
-            if (sender == divisionBtn)
-                selectedOperator = SelectedOperator.Division;
-            if (sender == additionBtn)
-                selectedOperator = SelectedOperator.Addition;
-            if (sender == subtractionBtn)
-                selectedOperator = SelectedOperator.Subtraction;
+            selectedOperator = GetOperator(sender);
         }
+
         private void NumberButton_Click(object sender, RoutedEventArgs e)
         {
             int selectedValue = int.Parse((sender as Button).Content.ToString());
@@ -103,21 +100,45 @@ namespace CalculatorXaml
                 resultLbl.Content = $"{resultLbl.Content}{selectedValue}";
         }
 
-    }
+        private SelectedOperator GetOperator(object sender)
+        {
+            var btn = (Button)sender;
 
-    public enum SelectedOperator
-    {
-        Addition,
-        Subtraction,
-        Multiplication,
-        Division
-    }
+            return btn.Name switch
+            {
+                "multiplicationBtn" => SelectedOperator.Multiplication,
+                "divisionBtn" => SelectedOperator.Division,
+                "additionBtn" => SelectedOperator.Addition,
+                "subtractionBtn" => SelectedOperator.Subtraction,
+                _ => SelectedOperator.Addition,
+            };
+        }
 
-    public class SimpleMath
-    {
-        public static double Add(double n1, double n2) => n1 + n2;
-        public static double Subtract(double n1, double n2) => n1 - n2;
-        public static double Multiply(double n1, double n2) => n1 * n2;
-        public static double Divide(double n1, double n2) => n1 / n2;
+
+        public enum SelectedOperator
+        {
+            Addition,
+            Subtraction,
+            Multiplication,
+            Division
+        }
+
+        public static class SimpleMath
+        {
+            public static double Add(double n1, double n2) => n1 + n2;
+            public static double Subtract(double n1, double n2) => n1 - n2;
+            public static double Multiply(double n1, double n2) => n1 * n2;
+            public static double Divide(double n1, double n2)
+            {
+                if (n2 == 0)
+                {
+                    MessageBox.Show("Division by 0 is not supported", "Wrong operation", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return 0;
+                }
+
+                return n1 / n2;
+            }
+        }
+
     }
 }
