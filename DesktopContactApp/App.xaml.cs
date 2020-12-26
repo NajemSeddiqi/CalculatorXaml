@@ -13,5 +13,8 @@ namespace DesktopContactApp
     /// </summary>
     public partial class App : Application
     {
+        private const string databaseName = "Contacts.db";
+        private static readonly string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        internal static string databasePath = System.IO.Path.Combine(folderPath, databaseName);
     }
 }
