@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Najem\source\repos\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\
 DesktopContactApp
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Najem\source\repos\CalculatorXaml\DesktopContactApp\App.xaml
-2-1710316630
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\App.xaml
+3-1239158615
 
-5535348367
-1971835621783
-MainWindow.xaml;NewContactWindow.xaml;
+7-2051599677
+197-718496652
+ContactDetailsWindow.xaml;MainWindow.xaml;NewContactWindow.xaml;
 
 False
 

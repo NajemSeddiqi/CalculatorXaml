@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj": {}
+    "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj": {
+    "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj",
+        "projectUniqueName": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj",
         "projectName": "CalculatorXaml",
-        "projectPath": "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj",
-        "packagesPath": "C:\\Users\\Najem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\CalculatorXaml\\obj\\",
+        "projectPath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj",
+        "packagesPath": "C:\\Users\\najem.seddiqi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Najem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\najem.seddiqi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smon211:8081/tfs/Adaptation/_packaging/AdaptationFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -61,7 +56,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

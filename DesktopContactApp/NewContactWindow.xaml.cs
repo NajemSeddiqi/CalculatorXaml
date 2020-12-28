@@ -1,16 +1,6 @@
-﻿using DesktopContactApp.Models;
-using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesktopContactApp.Api;
+using DesktopContactApp.Models;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace DesktopContactApp
 {
@@ -34,8 +24,7 @@ namespace DesktopContactApp
                 Phone = phoneTxtBox.Text
             };
 
-
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            using (var connection = DatabaseConnection.Connection())
             {
                 connection.Insert(contact);
             }

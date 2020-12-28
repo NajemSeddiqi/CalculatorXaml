@@ -1,19 +1,10 @@
-﻿using DesktopContactApp.Models;
-using SQLite;
+﻿using DesktopContactApp.Api;
+using DesktopContactApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DesktopContactApp
 {
@@ -22,10 +13,11 @@ namespace DesktopContactApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Contact> contacts;
         public MainWindow()
         {
             InitializeComponent();
-
+            contacts = new List<Contact>();
             ReadDataBase();
         }
 
@@ -36,13 +28,34 @@ namespace DesktopContactApp
             ReadDataBase();
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var txtBox = (TextBox)sender;
+            //bool pred(Contact w) => w.Name.ToLower().Contains(txtBox.Text.ToLower())
+            //                                || w.Email.ToLower().Contains(txtBox.Text.ToLower())
+            //                                || w.Phone.Contains(txtBox.Text);
+            Func<Contact, bool> pred = w => w.Name.ToLower().Contains(txtBox.Text.ToLower())
+                                            || w.Email.ToLower().Contains(txtBox.Text.ToLower())
+                                            || w.Phone.Contains(txtBox.Text);
+
+            contactsListView.ItemsSource = contacts.Where(pred).ToList();
+        }
+
+        private void ContactsListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selected = (Contact)contactsListView.SelectedItem;
+            if (selected != null)
+                new ContactDetailsWindow(selected).ShowDialog();
+
+            ReadDataBase();
+        }
+
         private void ReadDataBase()
         {
-            List<Contact> contacts;
-            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            using (var connection = DatabaseConnection.Connection())
             {
                 connection.CreateTable<Contact>();
-                contacts = connection.Table<Contact>().ToList();
+                contacts = connection.Table<Contact>().OrderBy(o => o.Name).ToList();
             }
 
             if (contacts != null)

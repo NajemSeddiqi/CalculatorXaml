@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "hVXuZ9n7PzQojB9iI9O1+8GY5dNxNrqO+befMlawJg47AL+haPcidn3oQpj08tubhkycIxRIL3CVgRortUGIcw==",
+  "dgSpecHash": "6rjFgO26UZ07aKAODWkkbBfhXZcM2C1QIbeASLqOIY9kNULNWCiW5B9VX+9l0IRI5Yi7fsJzW8wviTaweTZZzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Najem\\source\\repos\\CalculatorXaml\\DesktopContactApp\\DesktopContactApp.csproj",
+  "projectFilePath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\DesktopContactApp\\DesktopContactApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Najem\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
-    "C:\\Users\\Najem\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
-    "C:\\Users\\Najem\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
-    "C:\\Users\\Najem\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
-    "C:\\Users\\Najem\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "C:\\Users\\Najem\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }
