@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\App.xaml
-3-1239158615
+41715188866
 
-9-451963219
+10-61926647
 197-718496652
-ContactDetailsWindow.xaml;MainWindow.xaml;NewContactWindow.xaml;
+ContactDetailsWindow.xaml;Controls\ContactControl.xaml;MainWindow.xaml;NewContactWindow.xaml;
 
-False
+True
 

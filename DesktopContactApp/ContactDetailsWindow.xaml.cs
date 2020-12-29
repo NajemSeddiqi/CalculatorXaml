@@ -9,7 +9,7 @@ namespace DesktopContactApp
     /// </summary>
     public partial class ContactDetailsWindow : Window
     {
-        private Contact contact;
+        private readonly Contact contact;
         public ContactDetailsWindow(Contact contact)
         {
             InitializeComponent();
@@ -18,6 +18,9 @@ namespace DesktopContactApp
             nameTxtBox.Text = contact.Name;
             emailTxtBox.Text = contact.Email;
             phoneTxtBox.Text = contact.Phone;
+
+            Owner = Application.Current.MainWindow;
+            WindowStartupLocation = WindowStartupLocation.CenterOwner;
         }
 
         private void UpdateBtn_Click(object sender, RoutedEventArgs e)

@@ -78,3 +78,6 @@ C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Deb
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\DesktopContactApp.genruntimeconfig.cache
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\ContactDetailsWindow.g.cs
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\ContactDetailsWindow.baml
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\Controls\ContactControl.g.cs
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\Controls\ContactControl.baml
