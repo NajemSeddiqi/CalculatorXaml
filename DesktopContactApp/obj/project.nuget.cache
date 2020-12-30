@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6rjFgO26UZ07aKAODWkkbBfhXZcM2C1QIbeASLqOIY9kNULNWCiW5B9VX+9l0IRI5Yi7fsJzW8wviTaweTZZzQ==",
+  "dgSpecHash": "ZfWuMdCKbCXJ/3GYhVfbjj3Bee0xB2BnORp6zUaiLEoyiZ6KU41sDKkOCsgPBGlFAftV2sBcVTSEAK4vJgmrpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\DesktopContactApp\\DesktopContactApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\najem.seddiqi\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

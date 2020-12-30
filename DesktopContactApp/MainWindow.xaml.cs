@@ -24,7 +24,6 @@ namespace DesktopContactApp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             new NewContactWindow().ShowDialog();
-
             ReadDataBase();
         }
 

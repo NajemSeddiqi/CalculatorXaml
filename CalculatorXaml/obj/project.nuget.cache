@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ExLZ8tsFKFPczTgKCVq1M3om9iEpATf1g0Wt3QSfqTGUs3TTPthp1l0lBKpamtwkc/b6N6jQht4Mrnwqh4mzjQ==",
+  "dgSpecHash": "DAUSGy/ej65e7wRRxG/BvjsD//uJB6juHO0uKzfA1ccp7RVORxpDmI8K2NN+5ukLH6zzePNQdjXtDcgJs/rokQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\CalculatorXaml\\CalculatorXaml.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

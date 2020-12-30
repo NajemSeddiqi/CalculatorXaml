@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yitu5cv7HY7dBHAG1DqP/5NaQBvqiQBB5ld8OPA86QOcF/+dOwQdqDU0yXmVVh72CsdKE1tK9kklrTpS34O4FA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\LandmarkAI\\LandmarkAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

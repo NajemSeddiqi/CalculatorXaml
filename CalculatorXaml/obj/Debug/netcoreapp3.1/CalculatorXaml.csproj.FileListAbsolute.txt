@@ -39,3 +39,10 @@ C:\Users\Najem\Source\Repos\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.
 C:\Users\Najem\source\repos\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\App.baml
 C:\Users\Najem\source\repos\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\DesktopContactApp.g.cs
 C:\Users\Najem\source\repos\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\DesktopContactApp.baml
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\CalculatorXaml.csprojAssemblyReference.cache
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\CalculatorXaml_MarkupCompile.cache
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\CalculatorXaml_MarkupCompile.lref
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\CalculatorXaml.dll
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\CalculatorXaml\obj\Debug\netcoreapp3.1\CalculatorXaml.pdb
