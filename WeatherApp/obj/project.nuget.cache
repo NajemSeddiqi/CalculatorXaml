@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qZOVhFq831FjblvYVM+5Tiq9+iE6j3IcuE2G54It8j5sUKA0pIMjkmfjFmnZIapgm+5LPDKmOsU0d4Mg8vcNtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\najem.seddiqi\\Documents\\GitHub\\CalculatorXaml\\WeatherApp\\WeatherApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\najem.seddiqi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
