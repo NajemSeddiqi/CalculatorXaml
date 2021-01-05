@@ -81,3 +81,4 @@ C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Deb
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\Controls\ContactControl.g.cs
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\obj\Debug\netcoreapp3.1\Controls\ContactControl.baml
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\DesktopContactApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

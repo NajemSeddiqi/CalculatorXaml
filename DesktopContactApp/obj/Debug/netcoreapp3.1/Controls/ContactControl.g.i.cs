@@ -77,7 +77,7 @@ namespace DesktopContactApp.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DesktopContactApp;V1.0.0.0;component/controls/contactcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DesktopContactApp;component/controls/contactcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\ContactControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

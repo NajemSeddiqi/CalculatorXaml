@@ -1,4 +1,3 @@
-C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp.csprojAssemblyReference.cache
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp_MarkupCompile.cache
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp_MarkupCompile.lref
@@ -20,3 +19,4 @@ C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netc
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp.pdb
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp.genruntimeconfig.cache
 C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\najem.seddiqi\Documents\GitHub\CalculatorXaml\WeatherApp\obj\Debug\netcoreapp3.1\WeatherApp.csprojAssemblyReference.cache
